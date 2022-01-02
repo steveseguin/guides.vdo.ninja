@@ -1,0 +1,39 @@
+---
+layout: default
+title: "Home"
+order: 0
+description: >
+  Getting started with VDO.Ninja
+---
+
+<header>
+  <h1>{{ page.description }}</h1>
+  <p>
+    Bring remote video and audio streams into your video production software for
+    free. Low-latency and high-quality, VDO.Ninja is flexible tool ideal for the
+    COVID era of remote participation.
+  </p>
+  <p>
+    <a href='https://github.com/steveseguin/vdoninja/tree/quickstart#readme'>Printable cheat sheets for beginners are here!</a>
+  </p>
+  <p>
+    <a href='http://docs.vdo.ninja/'>Click here for the Advanced documention.</a>
+  </p>
+</header>
+<section class="tiles">
+  {% assign pages = site.pages | sort: 'order' | shift: 0 %} {% for page in
+  pages %} {% if page.title and page.order != 0 %}
+  <article class="{{ page.class }}">
+    <span class="image">
+      <img src="{{ page.list-image | prepend: site.baseurl }}" alt="" />
+    </span>
+    <a href="{{ page.url | prepend: site.baseurl }}" title="{{ page.title }}">
+      <h2>{{ page.title }}</h2>
+
+      <div class="content">
+        <p>{{ page.list_description }}</p>
+      </div>
+    </a>
+  </article>
+  {% endif %} {% endfor %}
+</section>
