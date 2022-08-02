@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "Basic remote camera"
+title:        "Customize a remote camera feed"
 date:         2020-12-16 10:00:00 +0000
 author:       "Steve Seguin"
 categories:   basic
@@ -14,16 +14,18 @@ list-image:  "/assets/images/pic02.jpg"       # config image to post list card (
 description: >                                # site meta description
   Pull your, or a remote guest's, laptop, desktop, or mobile device camera into OBS.
 list_description: >
-  Get your camera inside OBS.ninja
+  Get your camera inside VDO.Ninja
 
 # POST HEADER
 header-image: "/assets/images/pic13.jpg"      # config image to post header
 alt-image:    "image description test post a" # config image description to alt att.
 ---
 
-You can customize the playback of videos by added parameters to the OBS.Ninja URL links, along with many other aspects. OBS.Ninja is highly flexible in this regard, letting you achieve your desired outcome without needing to code and without additional software.
+#### This article assumes you have first read the basics: https://guides.vdo.ninja/basics
 
-For example, `https://vdo.ninja/?view=xxxxxxx`, could be amended to `https://obs.ninja/?view=xxxxxxx&bitrate=500`, which will target a video bitrate of 500kbps.
+You can customize the playback of videos by added parameters to the VDO.Ninja URL links, along with many other aspects. VDO.Ninja is highly flexible in this regard, letting you achieve your desired outcome without needing to code and without additional software.
+
+For example, `https://vdo.ninja/?view=xxxxxxx`, could be amended to `https://vdo.ninja/?view=xxxxxxx&bitrate=500`, which will target a video bitrate of 500kbps.
 
 Multiple parameters can be appended together by using the separating charater "&".
 
