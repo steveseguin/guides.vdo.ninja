@@ -19,6 +19,8 @@ header-image: "/assets/images/pic13.jpg"      # config image to post header
 alt-image:    "image description test post a" # config image description to alt att.
 ---
 
+### This article assumes you have first read the basics, including https://guides.vdo.ninja/2personchat
+
 While you can achieve a multi-person chat with a group room, you can also do it without it.
 
 For example, https://vdo.ninja/?view=xxxxxxx&push=yyyyyy
