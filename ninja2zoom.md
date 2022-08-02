@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "OBS.Ninja to Zoom"
+title:        "VDO.Ninja to Zoom"
 date:         2020-12-24 10:00:00 +0000
 author:       "Steve Seguin"
 categories:   advanced
