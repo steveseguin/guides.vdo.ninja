@@ -19,6 +19,8 @@ header-image: "/assets/images/pic13.jpg"      # config image to post header
 alt-image:    "image description test post a" # config image description to alt att.
 ---
 
+#### Note: This article assumes you have first read: https://guides.vdo.ninja/basics
+
 While you can achieve a multi-person chat with a group room, and that's the recommended way, you can also do it without using a room.
 
 For example, `https://vdo.ninja/?view=xxxxxxx&push=yyyyyy` will let you publish your video and video a remote video at the same time.
