@@ -29,8 +29,18 @@ For example, `https://vdo.ninja/?view=xxxxxxx`, could be amended to `https://vdo
 
 Multiple parameters can be appended together by using the separating charater "&".
 
-`http://vdo.ninja/?view=xxxxxxx&bitrate=500&stereo=1`
+`http://vdo.ninja/?view=xxxxxxx&bitrate=500&proaudio`
 
-You might notice the Stream ID values we are using (ie: aaa, bbb, etc); these can be manually created and reused. Use &push=STREAMID to publish a video and &view=STREAMID to remotely view it. If you don't manually specify a stream ID, OBS.Ninja will sometimes generate one for you.
 
-To make up a valid stream ID of your own though, choose something with less than 31-characters of length and ensure it's AlpHaNuMerIc-only. A stream ID must also not already be in active use, else you will be provided with an error.
+`&proaudio` is an optional flag that allows us to improve the audio quality of the stream, at the cost of higher network load. This is useful for podcasting setups, where you have a professional audio setup and want VDO.Ninja to unlock that potential.
+
+`&bitrate=500` lets us set the video bitrate to 500-kbps, where the default is 2500-kbps. You can go as high as around 70000-kbps, if your computer and connection can support it. For game streams, you might need to set it as high as 20000-kbps, but for most users, 2500-kbps to 6000-kbps is plenty.
+
+
+Also, you might notice the Stream ID values we are using (ie: aaa, bbb, etc); these can be manually created in advance and reused. Use &push=STREAMID to publish a video and &view=STREAMID to remotely view it. If you don't manually specify a stream ID, VDO.Ninja will generate one for you.
+
+To make up a valid stream ID of your own though, choose something with less than 31-characters of length and ensure it's AlpHaNuMerIc-only. A stream ID must also not already be in active use, else you will be provided with an error saying that it is already in use. 
+
+The main documention, found at https://docs.vdo.ninja/, contains dozens of more options that you can add to the URL to further customize VDO.Ninja to meet your needs.
+
+
