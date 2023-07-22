@@ -5,8 +5,8 @@ date:         2020-12-16 10:00:00 +0000
 author:       "Steve Seguin"
 categories:   basic
 tags:         tag1 tag2
-permalink:    basic
-order:        2
+permalink:    mobile
+order:        88
 
 # POSTS LIST
 class:       "style1"                         # config bg-color to post list card (1..6)
