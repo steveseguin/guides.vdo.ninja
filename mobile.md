@@ -21,8 +21,6 @@ header-image: "/assets/images/pic13.jpg"      # config image to post header
 alt-image:    "image description test post a" # config image description to alt att.
 ---
 
-#### This article assumes you have first read the basics: https://guides.vdo.ninja/basics
-
 You can customize the playback of videos by added parameters to the VDO.Ninja URL links, along with many other aspects. VDO.Ninja is highly flexible in this regard, letting you achieve your desired outcome without needing to code and without additional software.
 
 For example, `https://vdo.ninja/?view=xxxxxxx`, could be amended to `https://vdo.ninja/?view=xxxxxxx&bitrate=500`, which will target a video bitrate of 500kbps.
