@@ -4,24 +4,27 @@ title:        "Two person chat"
 date:         2020-12-16 10:00:00 +0000
 author:       "Steve Seguin"
 categories:   basic
-tags:         tag1 tag2
+tags:         chat two-way
 permalink:    2personchat
-order:        4
+order:        3
 
 # POSTS LIST
 class:       "style3"                         # config bg-color to post list card (1..6)
 list-image:  "/assets/images/pic04.jpg"       # config image to post list card (1..6)
 description: >                                # config description to post list card
-  Get your camera inside VDO.ninja quickly
+  Manual two-way video using push and view links for advanced control.
 
 # POST HEADER
 header-image: "/assets/images/pic13.jpg"      # config image to post header
-alt-image:    "image description test post a" # config image description to alt att.
+alt-image:    "Two person video chat setup" # config image description to alt att.
 ---
 
-#### Note: This article assumes you have first read: https://guides.vdo.ninja/basics
+#### Note: This article assumes you have first read: [VDO.Ninja basics](/basics)
 
-While you can achieve a multi-person chat with a group room, and that's the recommended way, you can also do it without using a room.
+{:.info}
+**For most users, we recommend using [Rooms](/rooms) instead.** Rooms automatically handle two-way audio and video with a single shared link. The manual method below gives you more control but requires creating custom links for each person.
+
+This guide covers the advanced manual approach using push and view links directly.
 
 For example, `https://vdo.ninja/?view=xxxxxxx&push=yyyyyy` will let you publish your video and video a remote video at the same time.
 

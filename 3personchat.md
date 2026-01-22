@@ -4,22 +4,25 @@ title:        "3-person chat"
 date:         2020-12-16 10:00:00 +0000
 author:       "Steve Seguin"
 categories:   basic
-tags:         three, basic
+tags:         three multi-person chat
 permalink:    3personchat
-order:        5
+order:        8
 
 # POSTS LIST
 class:       "style4"                         # config bg-color to post list card (1..6)
 list-image:  "/assets/images/pic05.jpg"       # config image to post list card (1..6)
 description: >                                # config description to post list card
-  Get your camera inside VDO.ninja quickly
+  Manual three-person video chat using push and view links.
 
 # POST HEADER
 header-image: "/assets/images/pic13.jpg"      # config image to post header
-alt-image:    "image description test post a" # config image description to alt att.
+alt-image:    "Three person video chat setup" # config image description to alt att.
 ---
 
-### This article assumes you have first read the basics, including https://guides.vdo.ninja/2personchat
+### This article assumes you have first read the basics, including [Two person chat](/2personchat)
+
+{:.info}
+**For most users, we recommend using [Rooms](/rooms) instead.** Rooms handle multi-person chat automatically with a single shared link. The manual method below gives you more control but requires custom links for each participant.
 
 While you can achieve a multi-person chat with a group room, you can also do it without it.
 

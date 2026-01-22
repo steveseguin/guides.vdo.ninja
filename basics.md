@@ -22,9 +22,12 @@ header-image: "/assets/screenshots/Site.png"      # config image to post header
 alt-image:    "VDO.Ninja landing page" # config image description to alt att.
 ---
 
-VDO.Ninja needs 2 thinks to work:
+VDO.Ninja needs 2 things to work:
   - Someone pushing a video feed out from their device
   - Someone viewing that video feed
+
+{:.info}
+**Want two-way audio?** If you need both people to hear each other (like a video call), use a [Room](/rooms) instead! Push/view links are one-way only.
 
 1.Visit VDO.Ninja with your web browser (Chrome, Edge, Safari)
 

@@ -3,12 +3,10 @@
 
 # Site settings
 title: VDO.Ninja - Guide
-description: > # this means to ignore newlines until "url:"
-  This is Phantom, a simple design built around a grid of large, colorful, semi-interactive
-  image tiles (of which you can have as many or as few as you like). Makes use of some
-  SVG and animation techniques I've been experimenting with on that other project of mine
-  you may have heard about (https://carrd.co), and includes a handy generic page for whatever.
-url: "http://guides.vdo.ninja" # the base hostname & protocol for your site
+description: >
+  Step-by-step guides for VDO.Ninja - free browser-based video streaming
+  for OBS, live production, and remote collaboration.
+url: "https://guides.vdo.ninja" # the base hostname & protocol for your site
 
 # Contact settings
 email: steve@seguin.email

@@ -6,7 +6,7 @@ author:       "Steve Seguin"
 categories:   basic
 tags:         tag1 tag2
 permalink:    basic
-order:        2
+order:        4
 
 # POSTS LIST
 class:       "style1"                         # config bg-color to post list card (1..6)
